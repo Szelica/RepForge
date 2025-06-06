@@ -1,0 +1,68 @@
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-y: auto;
+}
+
+div {
+  font-family: "Helvetica", sans-serif;
+}
+
+.dashboard {
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  padding-bottom: 100px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+}
+
+#profilePic {
+  color: #c1ff72;
+}
+
+.profileNameDiv {
+  margin-left: 20px;
+}
+
+#profileName {
+  color: #c1ff72;
+  margin: 0;
+  padding: 0;
+}
+
+#hello {
+  margin: 0;
+  padding: 0;
+}
+
+#calendarButton {
+  background-color: #4d4d4d;
+  color: #959595;
+  border-color: #3a3a3a;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 5px;
+}
+
+.buttonSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#activityCards{
+  padding-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

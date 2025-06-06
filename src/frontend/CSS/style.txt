@@ -1,0 +1,6 @@
+using the following font for header h1 and similia in CSS:
+
+font-family: "Poppins", sans-serif;
+    font-weight: bold;
+
+    

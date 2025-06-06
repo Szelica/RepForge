@@ -1,0 +1,71 @@
+.profilePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 360px; /* rovnaká šírka ako navbar */
+  height: 100vh;
+}
+
+#editProfileIcon {
+  color: #c1ff72;
+  background: none;
+  border-style: none;
+  cursor: pointer;
+}
+
+#editProfileIcon:hover {
+  color: #4d4d4d;
+}
+
+p.MuiTypography-root {
+  color: white;
+}
+
+span.MuiTypography-root {
+  font-weight: bold;
+}
+
+ul.MuiList-root {
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.css-1s2u09g-control,
+.css-1pahdxg-control {
+  background-color: #2c2c2c;
+  border-color: #c1ff72;
+  color: white;
+}
+
+.css-26l3qy-menu {
+  background-color: #2c2c2c;
+  color: black;
+}
+
+.css-xb97g8 {
+  background-color: #c1ff72;
+  color: black;
+}
+
+.css-1rhbuit-multiValueLabel {
+  color: black;
+}
+
+.css-12jo7m5 {
+  color: black;
+}
+
+.css-12jo7m5:hover {
+  background-color: #ff0000;
+  color: white;
+}
+
+.profilePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* zarovná všetko na stred */
+}
